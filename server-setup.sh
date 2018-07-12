@@ -59,7 +59,7 @@ function docker_setup(){
 
 
 
-general_setup()
-ssl_nginx()
-nodejs_setup()
-docker_setup()
+general_setup
+ssl_nginx
+nodejs_setup
+docker_setup
