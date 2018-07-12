@@ -7,6 +7,10 @@ sudo apt-get install -y nodejs
 
 sudo systemctl start nginx
 sudo systemctl enable nginx
+sudo cp default.conf /etc/nginx/conf.d/
+# sudo emacs /etc/nginx/conf.d/default.conf
+# sudo nginx -t
+# sudo systemctl reload nginx
 
 ########################################################
 
